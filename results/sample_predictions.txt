@@ -1,0 +1,106 @@
+# Sample predictions generated as examples
+# Format: idx	pred_prob	pred_label	true_label	review_snippet
+# Note: These are example values. To regenerate real predictions run:
+#   python src/predict.py --model saved_models/lstm_model.h5 --count 100
+
+idx	pred_prob	pred_label	true_label	review_snippet
+0	0.8531	1	1	this movie was wonderful and had great performances
+1	0.1423	0	0	a bad film with weak plot and poor acting
+2	0.7612	1	1	an engaging story with emotional moments
+3	0.2134	0	0	not worth the time; predictable ending
+4	0.9124	1	1	absolutely loved the soundtrack and acting
+5	0.0987	0	0	terrible pacing and uninteresting characters
+6	0.6543	1	1	pleasantly surprised by the direction and script
+7	0.3210	0	0	slow beginning, not very compelling
+8	0.7822	1	1	strong performances made this enjoyable
+9	0.2567	0	0	felt generic and uninspired overall
+10	0.8456	1	1	very moving and well executed scenes
+11	0.1765	0	0	would not recommend, felt too long
+12	0.7123	1	1	solid writing and good character development
+13	0.2984	0	0	lackluster special effects and choppy editing
+14	0.8999	1	1	one of the best films i've seen recently
+15	0.1342	0	0	fails to deliver on its premise
+16	0.6911	1	1	entertaining with a few standout moments
+17	0.2456	0	0	forgettable and slow paced
+18	0.7350	1	1	great chemistry between the leads
+19	0.3122	0	0	script felt weak in the second half
+20	0.8025	1	1	compelling and emotionally resonant
+21	0.1877	0	0	not engaging enough to finish
+22	0.6760	1	1	solid entertainment with heart
+23	0.2744	0	0	repetitive and predictable plot points
+24	0.9210	1	1	masterful storytelling and direction
+25	0.1533	0	0	awkward dialogue and poor casting choices
+26	0.7045	1	1	pleasantly surprising and well paced
+27	0.2899	0	0	not particularly memorable
+28	0.7658	1	1	nicely crafted scenes and good score
+29	0.2350	0	0	left me disappointed by the finale
+30	0.8382	1	1	uplifting and very well made
+31	0.1627	0	0	subpar execution of interesting ideas
+32	0.6900	1	1	engaging premise and believable acting
+33	0.2791	0	0	muddled pacing and direction
+34	0.8115	1	1	strong script and excellent pacing
+35	0.1988	0	0	missed opportunities to develop characters
+36	0.7480	1	1	visually appealing and emotionally effective
+37	0.2654	0	0	couldn't connect with the characters
+38	0.7799	1	1	compelling arc and solid performances
+39	0.2090	0	0	underwhelming climax and resolution
+40	0.8520	1	1	one of the most satisfying endings
+41	0.1432	0	0	too slow and not worth the hype
+42	0.6955	1	1	well written and beautifully acted
+43	0.2345	0	0	uninspired direction and flat jokes
+44	0.9081	1	1	emotional and beautifully scored
+45	0.1166	0	0	plot holes made it hard to follow
+46	0.7214	1	1	keeps you invested from start to finish
+47	0.2511	0	0	forgettable supporting characters
+48	0.7577	1	1	clever twists and good pacing
+49	0.2999	0	0	not as good as earlier works
+50	0.8344	1	1	heartfelt and expertly directed
+51	0.1722	0	0	dialogue felt unnatural in many scenes
+52	0.6990	1	1	remarkable performances across the cast
+53	0.2211	0	0	lack of chemistry between leads
+54	0.7800	1	1	engrossing story and crisp editing
+55	0.1899	0	0	ending felt abrupt and unsatisfying
+56	0.7433	1	1	thoughtful and well executed
+57	0.2633	0	0	overlaps too many subplots without payoff
+58	0.7699	1	1	excellent direction and strong visuals
+59	0.2155	0	0	not enough depth for its runtime
+60	0.8477	1	1	a moving experience with great performances
+61	0.1310	0	0	uninspired tone and weak character arcs
+62	0.7129	1	1	smart screenplay and polished execution
+63	0.2422	0	0	predictable beats and clichés
+64	0.8010	1	1	delivers on both emotion and craft
+65	0.1544	0	0	falls flat despite good intentions
+66	0.7055	1	1	solid film with memorable scenes
+67	0.2844	0	0	not innovative or fresh
+68	0.7766	1	1	well balanced and satisfying
+69	0.1995	0	0	une out after the midpoint
+70	0.8299	1	1	keeps momentum and rewards viewers
+71	0.1688	0	0	too conventional for my taste
+72	0.6941	1	1	wins you over with charm and heart
+73	0.2796	0	0	could use tighter editing
+74	0.7622	1	1	a thoughtful and entertaining watch
+75	0.2103	0	0	dialogue drags in places
+76	0.7388	1	1	very well constructed narrative
+77	0.2877	0	0	characters lack clear motivation
+78	0.7811	1	1	strong emotional payoff at the end
+79	0.2266	0	0	overwrought subplot diminishes impact
+80	0.8460	1	1	a beautifully told and moving film
+81	0.1390	0	0	not as cohesive as it could be
+82	0.7032	1	1	engaging throughout and well acted
+83	0.2544	0	0	slow and indecisive direction
+84	0.7933	1	1	excellent craftsmanship all around
+85	0.1933	0	0	fails to stay focused on core themes
+86	0.7177	1	1	memorable and emotionally resonant
+87	0.2766	0	0	misses tone in several scenes
+88	0.7588	1	1	compelling from beginning to end
+89	0.2388	0	0	une often drags the pacing
+90	0.8401	1	1	very impressive storytelling and acting
+91	0.1540	0	0	not all subplot threads are resolved
+92	0.6922	1	1	a rewarding cinematic experience
+93	0.2666	0	0	some scenes feel unnecessary
+94	0.7760	1	1	strong direction and thoughtful script
+95	0.2100	0	0	weak supporting cast performances
+96	0.7311	1	1	surprising and emotionally rich
+97	0.2799	0	0	could have been trimmed for focus
+98	0.7705	1	1	well acted with a satisfying arc
+99	0.2399	0	0	not as engaging on rewatch

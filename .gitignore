@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Model / tokenizer files
+*.h5
+*.pkl
+saved_models/
+results/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
